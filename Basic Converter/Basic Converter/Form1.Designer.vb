@@ -44,7 +44,7 @@ Partial Class CurrencyExchange
         'hsbSlider
         '
         Me.hsbSlider.Location = New System.Drawing.Point(9, 236)
-        Me.hsbSlider.Maximum = 10000
+        Me.hsbSlider.Maximum = 1000
         Me.hsbSlider.Name = "hsbSlider"
         Me.hsbSlider.Size = New System.Drawing.Size(656, 17)
         Me.hsbSlider.TabIndex = 0
@@ -196,6 +196,7 @@ Partial Class CurrencyExchange
         Me.Controls.Add(Me.plcAus)
         Me.Controls.Add(Me.lblAus)
         Me.Controls.Add(Me.hsbSlider)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "CurrencyExchange"
         Me.Text = "Currency Exchange"
         CType(Me.plcOther, System.ComponentModel.ISupportInitialize).EndInit()

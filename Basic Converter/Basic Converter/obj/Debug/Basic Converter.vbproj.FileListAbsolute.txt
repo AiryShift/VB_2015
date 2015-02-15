@@ -8,3 +8,4 @@ C:\Users\julian.tu1\Documents\GitHub\VB_2015\Basic Converter\Basic Converter\obj
 C:\Users\julian.tu1\Documents\GitHub\VB_2015\Basic Converter\Basic Converter\obj\Debug\Basic Converter.xml
 C:\Users\julian.tu1\Documents\GitHub\VB_2015\Basic Converter\Basic Converter\obj\Debug\Basic Converter.pdb
 C:\Users\julian.tu1\Documents\GitHub\VB_2015\Basic Converter\Basic Converter\obj\Debug\WindowsApplication1.CurrencyExchange.resources
+C:\Users\julian.tu1\Documents\GitHub\VB_2015\Basic Converter\Basic Converter\obj\Debug\Basic Converter.vbprojResolveAssemblyReference.cache
