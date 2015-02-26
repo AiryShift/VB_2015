@@ -24,16 +24,40 @@ Partial Class mainScreen
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(mainScreen))
         Me.pbDenmark = New System.Windows.Forms.PictureBox()
+        Me.pbFrench = New System.Windows.Forms.PictureBox()
+        Me.pbAzerbaijan = New System.Windows.Forms.PictureBox()
         CType(Me.pbDenmark, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbFrench, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbAzerbaijan, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pbDenmark
         '
+        Me.pbDenmark.Image = Global.WindowsApplication1.My.Resources.Resources.DENMARK
         Me.pbDenmark.Location = New System.Drawing.Point(163, 64)
         Me.pbDenmark.Name = "pbDenmark"
         Me.pbDenmark.Size = New System.Drawing.Size(150, 81)
+        Me.pbDenmark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pbDenmark.TabIndex = 0
         Me.pbDenmark.TabStop = False
+        '
+        'pbFrench
+        '
+        Me.pbFrench.Image = Global.WindowsApplication1.My.Resources.Resources.french
+        Me.pbFrench.Location = New System.Drawing.Point(12, 317)
+        Me.pbFrench.Name = "pbFrench"
+        Me.pbFrench.Size = New System.Drawing.Size(150, 81)
+        Me.pbFrench.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pbFrench.TabIndex = 1
+        Me.pbFrench.TabStop = False
+        '
+        'pbAzerbaijan
+        '
+        Me.pbAzerbaijan.Location = New System.Drawing.Point(316, 317)
+        Me.pbAzerbaijan.Name = "pbAzerbaijan"
+        Me.pbAzerbaijan.Size = New System.Drawing.Size(150, 81)
+        Me.pbAzerbaijan.TabIndex = 2
+        Me.pbAzerbaijan.TabStop = False
         '
         'mainScreen
         '
@@ -42,14 +66,20 @@ Partial Class mainScreen
         Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.triangle
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(478, 494)
+        Me.Controls.Add(Me.pbAzerbaijan)
+        Me.Controls.Add(Me.pbFrench)
         Me.Controls.Add(Me.pbDenmark)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "mainScreen"
-        Me.Text = "Form1"
+        Me.Text = "Translator"
         CType(Me.pbDenmark, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbFrench, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbAzerbaijan, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents pbDenmark As System.Windows.Forms.PictureBox
+    Friend WithEvents pbFrench As System.Windows.Forms.PictureBox
+    Friend WithEvents pbAzerbaijan As System.Windows.Forms.PictureBox
 
 End Class
