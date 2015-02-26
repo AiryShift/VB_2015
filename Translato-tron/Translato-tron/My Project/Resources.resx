@@ -136,4 +136,10 @@
   <data name="french_flag" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\french_flag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="azerbaijan_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\azerbaijan.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="azerbaijan_flag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\azerbaijan_flag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

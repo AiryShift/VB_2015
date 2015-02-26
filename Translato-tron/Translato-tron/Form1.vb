@@ -36,4 +36,21 @@
         End If
 
     End Sub
+
+    Private Sub pbAzerbaijan_Click(sender As Object, e As EventArgs) Handles _
+        pbAzerbaijan.MouseEnter, pbAzerbaijan.MouseLeave
+        If highlight = False Then
+            pbAzerbaijan.Image = My.Resources.azerbaijan_flag
+            highlight = True
+        Else
+            pbAzerbaijan.Image = My.Resources.azerbaijan_2
+            highlight = False
+        End If
+
+    End Sub
+
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        Me.Visible = False
+        formExit.Visible = True
+    End Sub
 End Class

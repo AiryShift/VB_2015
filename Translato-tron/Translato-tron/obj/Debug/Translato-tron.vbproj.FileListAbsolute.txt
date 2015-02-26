@@ -8,3 +8,4 @@ C:\Users\julian.tu1\Documents\GitHub\VB_2015\Translato-tron\Translato-tron\obj\D
 C:\Users\julian.tu1\Documents\GitHub\VB_2015\Translato-tron\Translato-tron\obj\Debug\Translato-tron.exe
 C:\Users\julian.tu1\Documents\GitHub\VB_2015\Translato-tron\Translato-tron\obj\Debug\Translato-tron.xml
 C:\Users\julian.tu1\Documents\GitHub\VB_2015\Translato-tron\Translato-tron\obj\Debug\Translato-tron.pdb
+C:\Users\julian.tu1\Documents\GitHub\VB_2015\Translato-tron\Translato-tron\obj\Debug\WindowsApplication1.formExit.resources
