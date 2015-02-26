@@ -28,6 +28,7 @@ Partial Class mainScreen
         Me.pbAzerbaijan = New System.Windows.Forms.PictureBox()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.lblMSTitle = New System.Windows.Forms.Label()
+        Me.btnHelp = New System.Windows.Forms.Button()
         CType(Me.pbDenmark, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbFrench, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbAzerbaijan, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -84,6 +85,15 @@ Partial Class mainScreen
         Me.lblMSTitle.TabIndex = 4
         Me.lblMSTitle.Text = "[Title Here]"
         '
+        'btnHelp
+        '
+        Me.btnHelp.Location = New System.Drawing.Point(12, 459)
+        Me.btnHelp.Name = "btnHelp"
+        Me.btnHelp.Size = New System.Drawing.Size(75, 23)
+        Me.btnHelp.TabIndex = 5
+        Me.btnHelp.Text = "Help"
+        Me.btnHelp.UseVisualStyleBackColor = True
+        '
         'mainScreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -91,6 +101,7 @@ Partial Class mainScreen
         Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.triangle
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(478, 494)
+        Me.Controls.Add(Me.btnHelp)
         Me.Controls.Add(Me.lblMSTitle)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.pbAzerbaijan)
@@ -111,5 +122,6 @@ Partial Class mainScreen
     Friend WithEvents pbAzerbaijan As System.Windows.Forms.PictureBox
     Friend WithEvents btnExit As System.Windows.Forms.Button
     Friend WithEvents lblMSTitle As System.Windows.Forms.Label
+    Friend WithEvents btnHelp As System.Windows.Forms.Button
 
 End Class

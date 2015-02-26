@@ -2,10 +2,10 @@
     Dim highlight As Boolean = False
 
     Private Sub mainScreen_Load(sender As Object, e As EventArgs) Handles _
-        pbDenmark.MouseLeave, pbDenmark.MouseEnter, _
+        pbDenmark.MouseEnter, pbDenmark.MouseLeave, _
         pbAzerbaijan.MouseEnter, pbAzerbaijan.MouseLeave, _
         pbFrench.MouseEnter, pbFrench.MouseLeave
-        If highlight = True Then
+        If highlight = False Then
             Me.BackgroundImage = My.Resources.redTriangle
         Else
             Me.BackgroundImage = My.Resources.triangle
@@ -13,8 +13,7 @@
 
     End Sub
 
-    Private Sub pbDenmark_Click(sender As Object, e As EventArgs) Handles _
-        pbDenmark.MouseEnter, pbDenmark.MouseLeave
+    Private Sub pbDenmark_Click(sender As Object, e As EventArgs) Handles pbDenmark.MouseEnter, pbDenmark.MouseLeave
         If highlight = False Then
             pbDenmark.Image = My.Resources.denmark_flag
             highlight = True
@@ -25,8 +24,7 @@
 
     End Sub
 
-    Private Sub pbFrench_Click(sender As Object, e As EventArgs) Handles _
-        pbFrench.MouseEnter, pbFrench.MouseLeave
+    Private Sub pbFrench_Click(sender As Object, e As EventArgs) Handles pbFrench.MouseEnter, pbFrench.MouseLeave
         If highlight = False Then
             pbFrench.Image = My.Resources.french_flag
             highlight = True
@@ -37,8 +35,7 @@
 
     End Sub
 
-    Private Sub pbAzerbaijan_Click(sender As Object, e As EventArgs) Handles _
-        pbAzerbaijan.MouseEnter, pbAzerbaijan.MouseLeave
+    Private Sub pbAzerbaijan_Click(sender As Object, e As EventArgs) Handles pbAzerbaijan.MouseEnter, pbAzerbaijan.MouseLeave
         If highlight = False Then
             pbAzerbaijan.Image = My.Resources.azerbaijan_flag
             highlight = True
@@ -52,5 +49,10 @@
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Visible = False
         formExit.Visible = True
+    End Sub
+
+    Private Sub btnHelp_Click(sender As Object, e As EventArgs) Handles btnHelp.Click
+        Me.Visible = False
+        help.Visible = True
     End Sub
 End Class
