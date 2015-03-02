@@ -121,11 +121,26 @@
   <data name="DENMARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DENMARK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="azerbaijan_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\azerbaijan.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="denmark_flag" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\denmark_flag.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="azerbaijan_flag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\azerbaijan_flag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="french_flag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\french_flag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="redTriangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\redTriangle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bosnia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bosnia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bosnia_flag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bosnia_flag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="french" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\french.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,13 +148,7 @@
   <data name="triangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\triangle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="french_flag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\french_flag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="azerbaijan_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\azerbaijan.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="azerbaijan_flag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\azerbaijan_flag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="flag_template_colour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flag_template_colour.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

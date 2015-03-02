@@ -25,6 +25,7 @@ Partial Class formExit
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(formExit))
         Me.btnExitTrue = New System.Windows.Forms.Button()
         Me.btnExitFalse = New System.Windows.Forms.Button()
+        Me.lblTitle = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnExitTrue
@@ -45,6 +46,18 @@ Partial Class formExit
         Me.btnExitFalse.Text = "No"
         Me.btnExitFalse.UseVisualStyleBackColor = True
         '
+        'lblTitle
+        '
+        Me.lblTitle.AutoSize = True
+        Me.lblTitle.BackColor = System.Drawing.Color.Transparent
+        Me.lblTitle.Font = New System.Drawing.Font("Impact", 20.0!)
+        Me.lblTitle.ForeColor = System.Drawing.Color.White
+        Me.lblTitle.Location = New System.Drawing.Point(63, 28)
+        Me.lblTitle.Name = "lblTitle"
+        Me.lblTitle.Size = New System.Drawing.Size(168, 34)
+        Me.lblTitle.TabIndex = 5
+        Me.lblTitle.Text = "Are you sure?"
+        '
         'formExit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -52,14 +65,17 @@ Partial Class formExit
         Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.triangle
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(284, 370)
+        Me.Controls.Add(Me.lblTitle)
         Me.Controls.Add(Me.btnExitFalse)
         Me.Controls.Add(Me.btnExitTrue)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "formExit"
-        Me.Text = "Are you sure?"
+        Me.Text = "Exit"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents btnExitTrue As System.Windows.Forms.Button
     Friend WithEvents btnExitFalse As System.Windows.Forms.Button
+    Friend WithEvents lblTitle As System.Windows.Forms.Label
 End Class

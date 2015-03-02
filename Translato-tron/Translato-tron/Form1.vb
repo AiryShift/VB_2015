@@ -1,10 +1,10 @@
 ﻿Public Class mainScreen
     Dim highlight As Boolean = False
 
-    Private Sub mainScreen_Load(sender As Object, e As EventArgs) Handles _
-        pbDenmark.MouseEnter, pbDenmark.MouseLeave, _
-        pbAzerbaijan.MouseEnter, pbAzerbaijan.MouseLeave, _
+    Private Sub mainScreen_Load(sender As Object, e As EventArgs) Handles pbDenmark.MouseEnter, pbDenmark.MouseLeave,
+        pbBosnia.MouseEnter, pbBosnia.MouseLeave,
         pbFrench.MouseEnter, pbFrench.MouseLeave
+
         If highlight = False Then
             Me.BackgroundImage = My.Resources.redTriangle
         Else
@@ -35,12 +35,12 @@
 
     End Sub
 
-    Private Sub pbAzerbaijan_Click(sender As Object, e As EventArgs) Handles pbAzerbaijan.MouseEnter, pbAzerbaijan.MouseLeave
+    Private Sub pbBosnia_Click(sender As Object, e As EventArgs) Handles pbBosnia.MouseEnter, pbBosnia.MouseLeave
         If highlight = False Then
-            pbAzerbaijan.Image = My.Resources.azerbaijan_flag
+            pbBosnia.Image = My.Resources.bosnia_flag
             highlight = True
         Else
-            pbAzerbaijan.Image = My.Resources.azerbaijan_2
+            pbBosnia.Image = My.Resources.bosnia
             highlight = False
         End If
 
@@ -54,5 +54,23 @@
     Private Sub btnHelp_Click(sender As Object, e As EventArgs) Handles btnHelp.Click
         Me.Visible = False
         help.Visible = True
+    End Sub
+
+    Public Sub openLanguage(lang As String)
+        Me.Visible = False
+        GlobalVariables.CurrentCountry = lang
+        country.Visible = True
+    End Sub
+
+    Private Sub pbDenmark_Click_1(sender As Object, e As EventArgs) Handles pbDenmark.Click
+        openLanguage("den")
+    End Sub
+
+    Private Sub pbFrench_Click_1(sender As Object, e As EventArgs) Handles pbFrench.Click
+        openLanguage("fran")
+    End Sub
+
+    Private Sub pbBosnia_Click_1(sender As Object, e As EventArgs) Handles pbBosnia.Click
+        openLanguage("bos")
     End Sub
 End Class

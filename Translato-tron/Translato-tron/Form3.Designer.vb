@@ -24,6 +24,7 @@ Partial Class help
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(help))
         Me.btnClose = New System.Windows.Forms.Button()
+        Me.txtInfo = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'btnClose
@@ -35,6 +36,14 @@ Partial Class help
         Me.btnClose.Text = "Close"
         Me.btnClose.UseVisualStyleBackColor = True
         '
+        'txtInfo
+        '
+        Me.txtInfo.Location = New System.Drawing.Point(85, 12)
+        Me.txtInfo.Multiline = True
+        Me.txtInfo.Name = "txtInfo"
+        Me.txtInfo.Size = New System.Drawing.Size(116, 303)
+        Me.txtInfo.TabIndex = 1
+        '
         'help
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -42,12 +51,15 @@ Partial Class help
         Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.triangle
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(284, 356)
+        Me.Controls.Add(Me.txtInfo)
         Me.Controls.Add(Me.btnClose)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "help"
         Me.Text = "Help"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents btnClose As System.Windows.Forms.Button
+    Friend WithEvents txtInfo As System.Windows.Forms.TextBox
 End Class

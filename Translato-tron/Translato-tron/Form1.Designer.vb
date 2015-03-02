@@ -25,13 +25,13 @@ Partial Class mainScreen
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(mainScreen))
         Me.pbDenmark = New System.Windows.Forms.PictureBox()
         Me.pbFrench = New System.Windows.Forms.PictureBox()
-        Me.pbAzerbaijan = New System.Windows.Forms.PictureBox()
+        Me.pbBosnia = New System.Windows.Forms.PictureBox()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.lblMSTitle = New System.Windows.Forms.Label()
         Me.btnHelp = New System.Windows.Forms.Button()
         CType(Me.pbDenmark, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbFrench, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbAzerbaijan, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbBosnia, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pbDenmark
@@ -54,15 +54,15 @@ Partial Class mainScreen
         Me.pbFrench.TabIndex = 1
         Me.pbFrench.TabStop = False
         '
-        'pbAzerbaijan
+        'pbBosnia
         '
-        Me.pbAzerbaijan.Image = Global.WindowsApplication1.My.Resources.Resources.azerbaijan_2
-        Me.pbAzerbaijan.Location = New System.Drawing.Point(316, 317)
-        Me.pbAzerbaijan.Name = "pbAzerbaijan"
-        Me.pbAzerbaijan.Size = New System.Drawing.Size(150, 81)
-        Me.pbAzerbaijan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.pbAzerbaijan.TabIndex = 2
-        Me.pbAzerbaijan.TabStop = False
+        Me.pbBosnia.Image = CType(resources.GetObject("pbBosnia.Image"), System.Drawing.Image)
+        Me.pbBosnia.Location = New System.Drawing.Point(316, 317)
+        Me.pbBosnia.Name = "pbBosnia"
+        Me.pbBosnia.Size = New System.Drawing.Size(150, 81)
+        Me.pbBosnia.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pbBosnia.TabIndex = 2
+        Me.pbBosnia.TabStop = False
         '
         'btnExit
         '
@@ -104,7 +104,7 @@ Partial Class mainScreen
         Me.Controls.Add(Me.btnHelp)
         Me.Controls.Add(Me.lblMSTitle)
         Me.Controls.Add(Me.btnExit)
-        Me.Controls.Add(Me.pbAzerbaijan)
+        Me.Controls.Add(Me.pbBosnia)
         Me.Controls.Add(Me.pbFrench)
         Me.Controls.Add(Me.pbDenmark)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -112,14 +112,14 @@ Partial Class mainScreen
         Me.Text = "Translator"
         CType(Me.pbDenmark, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbFrench, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbAzerbaijan, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbBosnia, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents pbDenmark As System.Windows.Forms.PictureBox
     Friend WithEvents pbFrench As System.Windows.Forms.PictureBox
-    Friend WithEvents pbAzerbaijan As System.Windows.Forms.PictureBox
+    Friend WithEvents pbBosnia As System.Windows.Forms.PictureBox
     Friend WithEvents btnExit As System.Windows.Forms.Button
     Friend WithEvents lblMSTitle As System.Windows.Forms.Label
     Friend WithEvents btnHelp As System.Windows.Forms.Button
