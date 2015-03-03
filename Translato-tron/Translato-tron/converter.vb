@@ -1,7 +1,7 @@
 ﻿Public Class converter
     Dim CURRENTRATE_OFUSA As Decimal
 
-    Private Sub pbFrom(sender As Object, e As EventArgs) Handles Me.MouseHover
+    Private Sub pbFrom(sender As Object, e As EventArgs) Handles Me.GotFocus
         If GlobalVariables.CurrentCountry = "fran" Then
             pbFlagTo.Image = My.Resources.french
             CURRENTRATE_OFUSA = 0.89

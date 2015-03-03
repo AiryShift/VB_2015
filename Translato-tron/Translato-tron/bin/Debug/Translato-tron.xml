@@ -15,6 +15,10 @@ Translato-tron
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.australia">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:WindowsApplication1.My.Resources.Resources.azerbaijan_2">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -52,6 +56,10 @@ Translato-tron
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:WindowsApplication1.My.Resources.Resources.triangle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.usa">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

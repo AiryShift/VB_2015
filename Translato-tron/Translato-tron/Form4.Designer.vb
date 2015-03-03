@@ -38,6 +38,8 @@ Partial Class country
         Me.btnConvert = New System.Windows.Forms.Button()
         Me.chkHide = New System.Windows.Forms.CheckBox()
         Me.txtTranslated = New System.Windows.Forms.TextBox()
+        Me.lblHeader = New System.Windows.Forms.Label()
+        Me.lblCountryTo = New System.Windows.Forms.Label()
         Me.gpbTranslations.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -54,7 +56,7 @@ Partial Class country
         Me.gpbTranslations.Controls.Add(Me.RadioButton3)
         Me.gpbTranslations.Controls.Add(Me.RadioButton2)
         Me.gpbTranslations.Controls.Add(Me.RadioButton1)
-        Me.gpbTranslations.ForeColor = System.Drawing.Color.FloralWhite
+        Me.gpbTranslations.ForeColor = System.Drawing.Color.White
         Me.gpbTranslations.Location = New System.Drawing.Point(12, 12)
         Me.gpbTranslations.Name = "gpbTranslations"
         Me.gpbTranslations.Size = New System.Drawing.Size(190, 254)
@@ -185,9 +187,9 @@ Partial Class country
         '
         Me.btnConvert.Location = New System.Drawing.Point(12, 280)
         Me.btnConvert.Name = "btnConvert"
-        Me.btnConvert.Size = New System.Drawing.Size(75, 23)
+        Me.btnConvert.Size = New System.Drawing.Size(190, 23)
         Me.btnConvert.TabIndex = 12
-        Me.btnConvert.Text = "Money Converter"
+        Me.btnConvert.Text = "Currency Converter"
         Me.btnConvert.UseVisualStyleBackColor = True
         '
         'chkHide
@@ -210,13 +212,37 @@ Partial Class country
         Me.txtTranslated.Size = New System.Drawing.Size(181, 74)
         Me.txtTranslated.TabIndex = 13
         '
+        'lblHeader
+        '
+        Me.lblHeader.AutoSize = True
+        Me.lblHeader.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblHeader.ForeColor = System.Drawing.Color.White
+        Me.lblHeader.Location = New System.Drawing.Point(236, 12)
+        Me.lblHeader.Name = "lblHeader"
+        Me.lblHeader.Size = New System.Drawing.Size(131, 22)
+        Me.lblHeader.TabIndex = 14
+        Me.lblHeader.Text = "Translating to"
+        '
+        'lblCountryTo
+        '
+        Me.lblCountryTo.AutoSize = True
+        Me.lblCountryTo.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCountryTo.ForeColor = System.Drawing.Color.White
+        Me.lblCountryTo.Location = New System.Drawing.Point(294, 49)
+        Me.lblCountryTo.Name = "lblCountryTo"
+        Me.lblCountryTo.Size = New System.Drawing.Size(131, 22)
+        Me.lblCountryTo.TabIndex = 15
+        Me.lblCountryTo.Text = "Translating to"
+        '
         'country
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.triangle
+        Me.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(437, 315)
+        Me.Controls.Add(Me.lblCountryTo)
+        Me.Controls.Add(Me.lblHeader)
         Me.Controls.Add(Me.txtTranslated)
         Me.Controls.Add(Me.chkHide)
         Me.Controls.Add(Me.btnConvert)
@@ -246,4 +272,6 @@ Partial Class country
     Friend WithEvents btnConvert As System.Windows.Forms.Button
     Friend WithEvents chkHide As System.Windows.Forms.CheckBox
     Friend WithEvents txtTranslated As System.Windows.Forms.TextBox
+    Friend WithEvents lblHeader As System.Windows.Forms.Label
+    Friend WithEvents lblCountryTo As System.Windows.Forms.Label
 End Class

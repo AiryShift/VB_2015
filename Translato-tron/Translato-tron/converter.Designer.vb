@@ -29,9 +29,9 @@ Partial Class converter
         Me.btnBack = New System.Windows.Forms.Button()
         Me.pbFlagFrom = New System.Windows.Forms.PictureBox()
         Me.gpbTransferFrom = New System.Windows.Forms.GroupBox()
-        Me.rdbUSA = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.rdbEurope = New System.Windows.Forms.RadioButton()
+        Me.rdbUSA = New System.Windows.Forms.RadioButton()
         CType(Me.pbFlagTo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbFlagFrom, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gpbTransferFrom.SuspendLayout()
@@ -51,6 +51,7 @@ Partial Class converter
         Me.pbFlagTo.Location = New System.Drawing.Point(155, 9)
         Me.pbFlagTo.Name = "pbFlagTo"
         Me.pbFlagTo.Size = New System.Drawing.Size(130, 101)
+        Me.pbFlagTo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pbFlagTo.TabIndex = 1
         Me.pbFlagTo.TabStop = False
         '
@@ -58,7 +59,7 @@ Partial Class converter
         '
         Me.lblTo.AutoSize = True
         Me.lblTo.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTo.Location = New System.Drawing.Point(155, 113)
+        Me.lblTo.Location = New System.Drawing.Point(155, 116)
         Me.lblTo.Name = "lblTo"
         Me.lblTo.Size = New System.Drawing.Size(28, 18)
         Me.lblTo.TabIndex = 2
@@ -76,7 +77,7 @@ Partial Class converter
         'pbFlagFrom
         '
         Me.pbFlagFrom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.pbFlagFrom.Image = Global.WindowsApplication1.My.Resources.Resources.australia
+        Me.pbFlagFrom.Image = Global.WindowsApplication1.My.Resources.Resources.usa
         Me.pbFlagFrom.Location = New System.Drawing.Point(2, 9)
         Me.pbFlagFrom.Name = "pbFlagFrom"
         Me.pbFlagFrom.Size = New System.Drawing.Size(130, 101)
@@ -88,21 +89,43 @@ Partial Class converter
         '
         Me.gpbTransferFrom.BackColor = System.Drawing.Color.Transparent
         Me.gpbTransferFrom.Controls.Add(Me.RadioButton3)
-        Me.gpbTransferFrom.Controls.Add(Me.RadioButton2)
+        Me.gpbTransferFrom.Controls.Add(Me.rdbEurope)
         Me.gpbTransferFrom.Controls.Add(Me.rdbUSA)
-        Me.gpbTransferFrom.ForeColor = System.Drawing.Color.Crimson
+        Me.gpbTransferFrom.ForeColor = System.Drawing.Color.Black
         Me.gpbTransferFrom.Location = New System.Drawing.Point(2, 116)
         Me.gpbTransferFrom.Name = "gpbTransferFrom"
-        Me.gpbTransferFrom.Size = New System.Drawing.Size(130, 92)
+        Me.gpbTransferFrom.Size = New System.Drawing.Size(130, 91)
         Me.gpbTransferFrom.TabIndex = 5
         Me.gpbTransferFrom.TabStop = False
         Me.gpbTransferFrom.Text = "Choose a currency:"
+        '
+        'RadioButton3
+        '
+        Me.RadioButton3.AutoSize = True
+        Me.RadioButton3.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton3.Location = New System.Drawing.Point(6, 65)
+        Me.RadioButton3.Name = "RadioButton3"
+        Me.RadioButton3.Size = New System.Drawing.Size(65, 17)
+        Me.RadioButton3.TabIndex = 2
+        Me.RadioButton3.Text = "Australia"
+        Me.RadioButton3.UseVisualStyleBackColor = True
+        '
+        'rdbEurope
+        '
+        Me.rdbEurope.AutoSize = True
+        Me.rdbEurope.ForeColor = System.Drawing.Color.Black
+        Me.rdbEurope.Location = New System.Drawing.Point(6, 42)
+        Me.rdbEurope.Name = "rdbEurope"
+        Me.rdbEurope.Size = New System.Drawing.Size(47, 17)
+        Me.rdbEurope.TabIndex = 1
+        Me.rdbEurope.Text = "Euro"
+        Me.rdbEurope.UseVisualStyleBackColor = True
         '
         'rdbUSA
         '
         Me.rdbUSA.AutoSize = True
         Me.rdbUSA.Checked = True
-        Me.rdbUSA.ForeColor = System.Drawing.Color.Crimson
+        Me.rdbUSA.ForeColor = System.Drawing.Color.Black
         Me.rdbUSA.Location = New System.Drawing.Point(6, 19)
         Me.rdbUSA.Name = "rdbUSA"
         Me.rdbUSA.Size = New System.Drawing.Size(47, 17)
@@ -111,33 +134,11 @@ Partial Class converter
         Me.rdbUSA.Text = "USA"
         Me.rdbUSA.UseVisualStyleBackColor = True
         '
-        'RadioButton2
-        '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.ForeColor = System.Drawing.Color.Crimson
-        Me.RadioButton2.Location = New System.Drawing.Point(6, 42)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(90, 17)
-        Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.Text = "RadioButton2"
-        Me.RadioButton2.UseVisualStyleBackColor = True
-        '
-        'RadioButton3
-        '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.ForeColor = System.Drawing.Color.Crimson
-        Me.RadioButton3.Location = New System.Drawing.Point(6, 65)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(90, 17)
-        Me.RadioButton3.TabIndex = 2
-        Me.RadioButton3.Text = "RadioButton3"
-        Me.RadioButton3.UseVisualStyleBackColor = True
-        '
         'converter
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.triangle
+        Me.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(284, 262)
         Me.Controls.Add(Me.gpbTransferFrom)
@@ -164,6 +165,6 @@ Partial Class converter
     Friend WithEvents pbFlagFrom As System.Windows.Forms.PictureBox
     Friend WithEvents gpbTransferFrom As System.Windows.Forms.GroupBox
     Friend WithEvents RadioButton3 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
+    Friend WithEvents rdbEurope As System.Windows.Forms.RadioButton
     Friend WithEvents rdbUSA As System.Windows.Forms.RadioButton
 End Class

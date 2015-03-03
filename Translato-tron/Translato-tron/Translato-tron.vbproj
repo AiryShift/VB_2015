@@ -184,6 +184,12 @@
   <ItemGroup>
     <None Include="Resources\bosnia.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag_template_colour.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usa.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
