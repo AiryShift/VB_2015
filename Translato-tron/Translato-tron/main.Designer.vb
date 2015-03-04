@@ -81,11 +81,11 @@ Partial Class mainScreen
         Me.lblMSTitle.BackColor = System.Drawing.Color.Transparent
         Me.lblMSTitle.Font = New System.Drawing.Font("Impact", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblMSTitle.ForeColor = System.Drawing.Color.White
-        Me.lblMSTitle.Location = New System.Drawing.Point(197, 9)
+        Me.lblMSTitle.Location = New System.Drawing.Point(113, 9)
         Me.lblMSTitle.Name = "lblMSTitle"
-        Me.lblMSTitle.Size = New System.Drawing.Size(210, 43)
+        Me.lblMSTitle.Size = New System.Drawing.Size(346, 43)
         Me.lblMSTitle.TabIndex = 4
-        Me.lblMSTitle.Text = "Simon sucks"
+        Me.lblMSTitle.Text = "Handy Tourist's Guide"
         '
         'btnHelp
         '

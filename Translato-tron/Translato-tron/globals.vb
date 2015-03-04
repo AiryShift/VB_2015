@@ -1,5 +1,17 @@
 ﻿Public Class GlobalVariables
     Public Shared Property CurrentCountry As String
+    Public Shared Property English As New Dictionary(Of Integer, String) From {
+        {1, "What is your name?"},
+        {2, "My name is..."},
+        {3, "Where can I find something to eat?"},
+        {4, "Where is the train station?"},
+        {5, "Where is the airport?"},
+        {6, "Can you show me the nearest toilet?"},
+        {7, "Hello"},
+        {8, "Goodbye"},
+        {9, "Thank you"},
+        {10, "I'm from..."}
+    }
     Public Shared Property Danish As New Dictionary(Of Integer, String) From {
         {1, "Hvad er dit navn?"},
         {2, "Mit navn er"},

@@ -38,7 +38,11 @@
             GlobalVariables.Bosnian.TryGetValue(rdbNum, writeString)
         End If
 
-        txtTranslated.Text = writeString + " " + extra
+        If extra <> "" Then
+            txtTranslated.Text = writeString + " " + extra
+        Else
+            txtTranslated.Text = writeString
+        End If
     End Sub
 
     Private Sub rdb1_CheckedChanged(sender As Object, e As EventArgs) Handles rdb1.CheckedChanged
@@ -58,7 +62,7 @@
         translate(3)
     End Sub
 
-    Private Sub RadioButton4_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton4.CheckedChanged
+    Private Sub rdb4_CheckedChanged(sender As Object, e As EventArgs) Handles rdb4.CheckedChanged
         translate(4)
     End Sub
 
@@ -88,6 +92,58 @@
             txt10.ReadOnly = False
         Else
             txt10.ReadOnly = True
+        End If
+    End Sub
+
+    Private Sub chkHide_CheckedChanged(sender As Object, e As EventArgs) Handles chkHide.CheckedChanged
+        If chkHide.Checked = True Then
+            rdb1.Text = ""
+            rdb2.Text = ""
+            rdb3.Text = ""
+            rdb4.Text = ""
+            rdb5.Text = ""
+            rdb6.Text = ""
+            rdb7.Text = ""
+            rdb8.Text = ""
+            rdb9.Text = ""
+            rdb10.Text = ""
+        Else
+            GlobalVariables.English.TryGetValue(1, rdb1.Text)
+            GlobalVariables.English.TryGetValue(2, rdb2.Text)
+            GlobalVariables.English.TryGetValue(3, rdb3.Text)
+            GlobalVariables.English.TryGetValue(4, rdb4.Text)
+            GlobalVariables.English.TryGetValue(5, rdb5.Text)
+            GlobalVariables.English.TryGetValue(6, rdb6.Text)
+            GlobalVariables.English.TryGetValue(7, rdb7.Text)
+            GlobalVariables.English.TryGetValue(8, rdb8.Text)
+            GlobalVariables.English.TryGetValue(9, rdb9.Text)
+            GlobalVariables.English.TryGetValue(10, rdb10.Text)
+        End If
+    End Sub
+
+    Private Sub btnRandom_Click(sender As Object, e As EventArgs) Handles btnRandom.Click
+        Dim rand As New Random
+        Dim num As Integer = rand.Next(1, 11)
+        If num = 1 Then
+            rdb1.Checked = True
+        ElseIf num = 2 Then
+            rdb2.Checked = True
+        ElseIf num = 3 Then
+            rdb3.Checked = True
+        ElseIf num = 4 Then
+            rdb4.Checked = True
+        ElseIf num = 5 Then
+            rdb5.Checked = True
+        ElseIf num = 6 Then
+            rdb6.Checked = True
+        ElseIf num = 7 Then
+            rdb7.Checked = True
+        ElseIf num = 8 Then
+            rdb8.Checked = True
+        ElseIf num = 9 Then
+            rdb9.Checked = True
+        Else  ' num = 10
+            rdb10.Checked = True
         End If
     End Sub
 End Class

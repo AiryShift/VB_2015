@@ -32,7 +32,7 @@ Partial Class country
         Me.rdb7 = New System.Windows.Forms.RadioButton()
         Me.rdb6 = New System.Windows.Forms.RadioButton()
         Me.rdb5 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
+        Me.rdb4 = New System.Windows.Forms.RadioButton()
         Me.rdb3 = New System.Windows.Forms.RadioButton()
         Me.rdb2 = New System.Windows.Forms.RadioButton()
         Me.rdb1 = New System.Windows.Forms.RadioButton()
@@ -41,12 +41,18 @@ Partial Class country
         Me.txtTranslated = New System.Windows.Forms.TextBox()
         Me.lblHeader = New System.Windows.Forms.Label()
         Me.lblCountryTo = New System.Windows.Forms.Label()
+        Me.chkHide = New System.Windows.Forms.CheckBox()
+        Me.lblInfo_2 = New System.Windows.Forms.Label()
+        Me.lblInfo_1 = New System.Windows.Forms.Label()
+        Me.btnRandom = New System.Windows.Forms.Button()
         Me.gpbTranslations.SuspendLayout()
         Me.SuspendLayout()
         '
         'gpbTranslations
         '
         Me.gpbTranslations.BackColor = System.Drawing.Color.Transparent
+        Me.gpbTranslations.Controls.Add(Me.lblInfo_1)
+        Me.gpbTranslations.Controls.Add(Me.lblInfo_2)
         Me.gpbTranslations.Controls.Add(Me.txt10)
         Me.gpbTranslations.Controls.Add(Me.txt2)
         Me.gpbTranslations.Controls.Add(Me.rdb10)
@@ -55,7 +61,7 @@ Partial Class country
         Me.gpbTranslations.Controls.Add(Me.rdb7)
         Me.gpbTranslations.Controls.Add(Me.rdb6)
         Me.gpbTranslations.Controls.Add(Me.rdb5)
-        Me.gpbTranslations.Controls.Add(Me.RadioButton4)
+        Me.gpbTranslations.Controls.Add(Me.rdb4)
         Me.gpbTranslations.Controls.Add(Me.rdb3)
         Me.gpbTranslations.Controls.Add(Me.rdb2)
         Me.gpbTranslations.Controls.Add(Me.rdb1)
@@ -65,14 +71,14 @@ Partial Class country
         Me.gpbTranslations.Size = New System.Drawing.Size(309, 254)
         Me.gpbTranslations.TabIndex = 0
         Me.gpbTranslations.TabStop = False
-        Me.gpbTranslations.Text = "Translating from English to..."
+        Me.gpbTranslations.Text = "Translating from English..."
         '
         'txt10
         '
         Me.txt10.Location = New System.Drawing.Point(82, 223)
         Me.txt10.Name = "txt10"
         Me.txt10.ReadOnly = True
-        Me.txt10.Size = New System.Drawing.Size(221, 20)
+        Me.txt10.Size = New System.Drawing.Size(135, 20)
         Me.txt10.TabIndex = 11
         '
         'txt2
@@ -80,7 +86,7 @@ Partial Class country
         Me.txt2.Location = New System.Drawing.Point(99, 42)
         Me.txt2.Name = "txt2"
         Me.txt2.ReadOnly = True
-        Me.txt2.Size = New System.Drawing.Size(204, 20)
+        Me.txt2.Size = New System.Drawing.Size(103, 20)
         Me.txt2.TabIndex = 10
         '
         'rdb10
@@ -143,15 +149,15 @@ Partial Class country
         Me.rdb5.Text = "Where is the airport?"
         Me.rdb5.UseVisualStyleBackColor = True
         '
-        'RadioButton4
+        'rdb4
         '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(6, 88)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(148, 17)
-        Me.RadioButton4.TabIndex = 3
-        Me.RadioButton4.Text = "Where is the train station?"
-        Me.RadioButton4.UseVisualStyleBackColor = True
+        Me.rdb4.AutoSize = True
+        Me.rdb4.Location = New System.Drawing.Point(6, 88)
+        Me.rdb4.Name = "rdb4"
+        Me.rdb4.Size = New System.Drawing.Size(148, 17)
+        Me.rdb4.TabIndex = 3
+        Me.rdb4.Text = "Where is the train station?"
+        Me.rdb4.UseVisualStyleBackColor = True
         '
         'rdb3
         '
@@ -198,7 +204,7 @@ Partial Class country
         '
         Me.btnConvert.Location = New System.Drawing.Point(12, 280)
         Me.btnConvert.Name = "btnConvert"
-        Me.btnConvert.Size = New System.Drawing.Size(218, 23)
+        Me.btnConvert.Size = New System.Drawing.Size(309, 23)
         Me.btnConvert.TabIndex = 12
         Me.btnConvert.Text = "Currency Converter"
         Me.btnConvert.UseVisualStyleBackColor = True
@@ -228,12 +234,52 @@ Partial Class country
         Me.lblCountryTo.AutoSize = True
         Me.lblCountryTo.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCountryTo.ForeColor = System.Drawing.Color.White
-        Me.lblCountryTo.Location = New System.Drawing.Point(377, 49)
+        Me.lblCountryTo.Location = New System.Drawing.Point(408, 48)
         Me.lblCountryTo.Name = "lblCountryTo"
         Me.lblCountryTo.Size = New System.Drawing.Size(100, 22)
         Me.lblCountryTo.TabIndex = 15
         Me.lblCountryTo.Text = "Loading..."
         Me.lblCountryTo.TextAlign = System.Drawing.ContentAlignment.TopRight
+        '
+        'chkHide
+        '
+        Me.chkHide.AutoSize = True
+        Me.chkHide.ForeColor = System.Drawing.Color.White
+        Me.chkHide.Location = New System.Drawing.Point(327, 284)
+        Me.chkHide.Name = "chkHide"
+        Me.chkHide.Size = New System.Drawing.Size(104, 17)
+        Me.chkHide.TabIndex = 16
+        Me.chkHide.Text = "Hide translations"
+        Me.chkHide.UseVisualStyleBackColor = True
+        '
+        'lblInfo_2
+        '
+        Me.lblInfo_2.AutoSize = True
+        Me.lblInfo_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblInfo_2.Location = New System.Drawing.Point(223, 228)
+        Me.lblInfo_2.Name = "lblInfo_2"
+        Me.lblInfo_2.Size = New System.Drawing.Size(79, 13)
+        Me.lblInfo_2.TabIndex = 12
+        Me.lblInfo_2.Text = "Enter a country"
+        '
+        'lblInfo_1
+        '
+        Me.lblInfo_1.AutoSize = True
+        Me.lblInfo_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblInfo_1.Location = New System.Drawing.Point(218, 45)
+        Me.lblInfo_1.Name = "lblInfo_1"
+        Me.lblInfo_1.Size = New System.Drawing.Size(84, 13)
+        Me.lblInfo_1.TabIndex = 13
+        Me.lblInfo_1.Text = "Enter your name"
+        '
+        'btnRandom
+        '
+        Me.btnRandom.Location = New System.Drawing.Point(327, 163)
+        Me.btnRandom.Name = "btnRandom"
+        Me.btnRandom.Size = New System.Drawing.Size(181, 23)
+        Me.btnRandom.TabIndex = 14
+        Me.btnRandom.Text = "Random phrase"
+        Me.btnRandom.UseVisualStyleBackColor = True
         '
         'country
         '
@@ -242,6 +288,8 @@ Partial Class country
         Me.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(520, 315)
+        Me.Controls.Add(Me.btnRandom)
+        Me.Controls.Add(Me.chkHide)
         Me.Controls.Add(Me.lblCountryTo)
         Me.Controls.Add(Me.lblHeader)
         Me.Controls.Add(Me.txtTranslated)
@@ -264,7 +312,7 @@ Partial Class country
     Friend WithEvents rdb7 As System.Windows.Forms.RadioButton
     Friend WithEvents rdb6 As System.Windows.Forms.RadioButton
     Friend WithEvents rdb5 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton4 As System.Windows.Forms.RadioButton
+    Friend WithEvents rdb4 As System.Windows.Forms.RadioButton
     Friend WithEvents rdb3 As System.Windows.Forms.RadioButton
     Friend WithEvents rdb2 As System.Windows.Forms.RadioButton
     Friend WithEvents rdb1 As System.Windows.Forms.RadioButton
@@ -275,4 +323,8 @@ Partial Class country
     Friend WithEvents lblCountryTo As System.Windows.Forms.Label
     Friend WithEvents txt10 As System.Windows.Forms.TextBox
     Friend WithEvents txt2 As System.Windows.Forms.TextBox
+    Friend WithEvents chkHide As System.Windows.Forms.CheckBox
+    Friend WithEvents lblInfo_1 As System.Windows.Forms.Label
+    Friend WithEvents lblInfo_2 As System.Windows.Forms.Label
+    Friend WithEvents btnRandom As System.Windows.Forms.Button
 End Class
