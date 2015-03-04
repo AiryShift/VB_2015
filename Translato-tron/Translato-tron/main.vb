@@ -5,10 +5,12 @@
         If highlight = False Then
             pbDenmark.Image = My.Resources.denmark_flag
             pcbWorldMap.Image = My.Resources.europe_denmark
+            lblName_1.Show()
             highlight = True
         Else
             pbDenmark.Image = My.Resources.DENMARK
             pcbWorldMap.Image = My.Resources.blank_europe_map
+            lblName_1.Hide()
             highlight = False
         End If
 
@@ -18,10 +20,12 @@
         If highlight = False Then
             pbFrench.Image = My.Resources.france_flag_thing
             pcbWorldMap.Image = My.Resources.europe_france
+            lblName_2.Show()
             highlight = True
         Else
             pbFrench.Image = My.Resources.french
             pcbWorldMap.Image = My.Resources.blank_europe_map
+            lblName_2.Hide()
             highlight = False
         End If
 
@@ -31,10 +35,12 @@
         If highlight = False Then
             pbBosnia.Image = My.Resources.bosnia_flag
             pcbWorldMap.Image = My.Resources.europe_bosnia
+            lblName_3.Show()
             highlight = True
         Else
             pbBosnia.Image = My.Resources.bosnia
             pcbWorldMap.Image = My.Resources.blank_europe_map
+            lblName_3.Hide()
             highlight = False
         End If
 

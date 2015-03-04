@@ -1,5 +1,19 @@
 ﻿Public Class country
 
+    Private Sub initialize(sender As Object, e As EventArgs) Handles MyBase.Activated
+        If GlobalVariables.CurrentCountry = "fran" Then
+            lblCountryTo.Text = "French"
+        ElseIf GlobalVariables.CurrentCountry = "den" Then
+            lblCountryTo.Text = "Danish"
+        Else  ' GlobalVariables.CurrentCountry = "bos"
+            lblCountryTo.Text = "Bosnian"
+        End If
+        rdb1.Checked = True
+        translate(1)
+        txt2.Text = ""
+        txt10.Text = ""
+    End Sub
+
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         Me.Hide()
         mainScreen.Show()
@@ -8,24 +22,6 @@
     Private Sub btnConvert_Click(sender As Object, e As EventArgs) Handles btnConvert.Click
         Me.Hide()
         CurrencyChange.Show()
-    End Sub
-
-    Private Sub lblCountryTo_Click(sender As Object, e As EventArgs) Handles MyBase.Activated
-        If GlobalVariables.CurrentCountry = "fran" Then
-            lblCountryTo.Text = "French"
-        ElseIf GlobalVariables.CurrentCountry = "den" Then
-            lblCountryTo.Text = "Danish"
-        Else  ' GlobalVariables.CurrentCountry = "bos"
-            lblCountryTo.Text = "Bosnian"
-        End If
-    End Sub
-
-    Private Sub txt2_TextChanged(sender As Object, e As EventArgs) Handles txt2.TextChanged
-        translate(2, txt2.Text)
-    End Sub
-
-    Private Sub txt10_TextChanged(sender As Object, e As EventArgs) Handles txt10.TextChanged
-        translate(10, txt10.Text)
     End Sub
 
     Public Sub translate(rdbNum As Integer, Optional ByVal extra As String = "")
@@ -56,6 +52,10 @@
         Else
             txt2.ReadOnly = False
         End If
+    End Sub
+
+    Private Sub txt2_TextChanged(sender As Object, e As EventArgs) Handles txt2.TextChanged
+        translate(2, txt2.Text)
     End Sub
 
     Private Sub rdb3_CheckedChanged(sender As Object, e As EventArgs) Handles rdb3.CheckedChanged
@@ -93,6 +93,10 @@
         Else
             txt10.ReadOnly = True
         End If
+    End Sub
+
+    Private Sub txt10_TextChanged(sender As Object, e As EventArgs) Handles txt10.TextChanged
+        translate(10, txt10.Text)
     End Sub
 
     Private Sub chkHide_CheckedChanged(sender As Object, e As EventArgs) Handles chkHide.CheckedChanged

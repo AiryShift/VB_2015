@@ -30,6 +30,9 @@ Partial Class mainScreen
         Me.lblMSTitle = New System.Windows.Forms.Label()
         Me.btnHelp = New System.Windows.Forms.Button()
         Me.pcbWorldMap = New System.Windows.Forms.PictureBox()
+        Me.lblName_1 = New System.Windows.Forms.Label()
+        Me.lblName_2 = New System.Windows.Forms.Label()
+        Me.lblName_3 = New System.Windows.Forms.Label()
         CType(Me.pbDenmark, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbFrench, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbBosnia, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -106,6 +109,42 @@ Partial Class mainScreen
         Me.pcbWorldMap.TabIndex = 6
         Me.pcbWorldMap.TabStop = False
         '
+        'lblName_1
+        '
+        Me.lblName_1.AutoSize = True
+        Me.lblName_1.Font = New System.Drawing.Font("Impact", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblName_1.ForeColor = System.Drawing.Color.White
+        Me.lblName_1.Location = New System.Drawing.Point(12, 33)
+        Me.lblName_1.Name = "lblName_1"
+        Me.lblName_1.Size = New System.Drawing.Size(65, 19)
+        Me.lblName_1.TabIndex = 7
+        Me.lblName_1.Text = "Denmark"
+        Me.lblName_1.Visible = False
+        '
+        'lblName_2
+        '
+        Me.lblName_2.AutoSize = True
+        Me.lblName_2.Font = New System.Drawing.Font("Impact", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblName_2.ForeColor = System.Drawing.Color.White
+        Me.lblName_2.Location = New System.Drawing.Point(12, 155)
+        Me.lblName_2.Name = "lblName_2"
+        Me.lblName_2.Size = New System.Drawing.Size(51, 19)
+        Me.lblName_2.TabIndex = 8
+        Me.lblName_2.Text = "France"
+        Me.lblName_2.Visible = False
+        '
+        'lblName_3
+        '
+        Me.lblName_3.AutoSize = True
+        Me.lblName_3.Font = New System.Drawing.Font("Impact", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblName_3.ForeColor = System.Drawing.Color.White
+        Me.lblName_3.Location = New System.Drawing.Point(12, 271)
+        Me.lblName_3.Name = "lblName_3"
+        Me.lblName_3.Size = New System.Drawing.Size(52, 19)
+        Me.lblName_3.TabIndex = 9
+        Me.lblName_3.Text = "Bosnia"
+        Me.lblName_3.Visible = False
+        '
         'mainScreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -113,6 +152,9 @@ Partial Class mainScreen
         Me.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(557, 411)
+        Me.Controls.Add(Me.lblName_3)
+        Me.Controls.Add(Me.lblName_2)
+        Me.Controls.Add(Me.lblName_1)
         Me.Controls.Add(Me.pcbWorldMap)
         Me.Controls.Add(Me.btnHelp)
         Me.Controls.Add(Me.lblMSTitle)
@@ -138,5 +180,8 @@ Partial Class mainScreen
     Friend WithEvents lblMSTitle As System.Windows.Forms.Label
     Friend WithEvents btnHelp As System.Windows.Forms.Button
     Friend WithEvents pcbWorldMap As System.Windows.Forms.PictureBox
+    Friend WithEvents lblName_1 As System.Windows.Forms.Label
+    Friend WithEvents lblName_2 As System.Windows.Forms.Label
+    Friend WithEvents lblName_3 As System.Windows.Forms.Label
 
 End Class
