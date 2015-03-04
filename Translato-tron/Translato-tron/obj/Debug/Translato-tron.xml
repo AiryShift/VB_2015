@@ -195,6 +195,10 @@ Translato-tron
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.x_files">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
 </member><member name="T:WindowsApplication1.My.Resources.Resources">
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
