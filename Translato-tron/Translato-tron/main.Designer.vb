@@ -68,7 +68,7 @@ Partial Class mainScreen
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(331, 380)
+        Me.btnExit.Location = New System.Drawing.Point(470, 380)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 3
@@ -79,13 +79,13 @@ Partial Class mainScreen
         '
         Me.lblMSTitle.AutoSize = True
         Me.lblMSTitle.BackColor = System.Drawing.Color.Transparent
-        Me.lblMSTitle.Font = New System.Drawing.Font("Impact", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblMSTitle.Font = New System.Drawing.Font("Impact", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblMSTitle.ForeColor = System.Drawing.Color.White
-        Me.lblMSTitle.Location = New System.Drawing.Point(119, 9)
+        Me.lblMSTitle.Location = New System.Drawing.Point(197, 9)
         Me.lblMSTitle.Name = "lblMSTitle"
-        Me.lblMSTitle.Size = New System.Drawing.Size(176, 43)
+        Me.lblMSTitle.Size = New System.Drawing.Size(210, 43)
         Me.lblMSTitle.TabIndex = 4
-        Me.lblMSTitle.Text = "[Title Here]"
+        Me.lblMSTitle.Text = "Simon sucks"
         '
         'btnHelp
         '
@@ -98,9 +98,11 @@ Partial Class mainScreen
         '
         'pcbWorldMap
         '
+        Me.pcbWorldMap.Image = Global.WindowsApplication1.My.Resources.Resources.blank_europe_map
         Me.pcbWorldMap.Location = New System.Drawing.Point(168, 55)
         Me.pcbWorldMap.Name = "pcbWorldMap"
-        Me.pcbWorldMap.Size = New System.Drawing.Size(238, 319)
+        Me.pcbWorldMap.Size = New System.Drawing.Size(377, 319)
+        Me.pcbWorldMap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pcbWorldMap.TabIndex = 6
         Me.pcbWorldMap.TabStop = False
         '
@@ -110,7 +112,7 @@ Partial Class mainScreen
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(418, 411)
+        Me.ClientSize = New System.Drawing.Size(557, 411)
         Me.Controls.Add(Me.pcbWorldMap)
         Me.Controls.Add(Me.btnHelp)
         Me.Controls.Add(Me.lblMSTitle)

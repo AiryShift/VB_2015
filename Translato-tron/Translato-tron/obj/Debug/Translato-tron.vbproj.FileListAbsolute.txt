@@ -11,4 +11,4 @@ C:\Users\julian.tu1\Documents\GitHub\VB_2015\Translato-tron\Translato-tron\obj\D
 C:\Users\julian.tu1\Documents\GitHub\VB_2015\Translato-tron\Translato-tron\obj\Debug\WindowsApplication1.formExit.resources
 C:\Users\julian.tu1\Documents\GitHub\VB_2015\Translato-tron\Translato-tron\obj\Debug\WindowsApplication1.help.resources
 C:\Users\julian.tu1\Documents\GitHub\VB_2015\Translato-tron\Translato-tron\obj\Debug\WindowsApplication1.country.resources
-C:\Users\julian.tu1\Documents\GitHub\VB_2015\Translato-tron\Translato-tron\obj\Debug\WindowsApplication1.converter.resources
+C:\Users\julian.tu1\Documents\GitHub\VB_2015\Translato-tron\Translato-tron\obj\Debug\WindowsApplication1.CurrencyChange.resources

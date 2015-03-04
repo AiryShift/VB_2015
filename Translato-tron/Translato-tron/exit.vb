@@ -1,8 +1,8 @@
 ﻿Public Class formExit
 
     Private Sub btnExitFalse_Click(sender As Object, e As EventArgs) Handles btnExitFalse.Click
-        Me.Visible = False
-        mainScreen.Visible = True
+        Me.Hide()
+        mainScreen.Show()
     End Sub
 
     Private Sub btnExitTrue_Click(sender As Object, e As EventArgs) Handles btnExitTrue.Click

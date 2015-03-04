@@ -19,11 +19,47 @@ Translato-tron
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:WindowsApplication1.My.Resources.Resources.azerbaijan_2">
+</member><member name="P:WindowsApplication1.My.Resources.Resources.b1">
 	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Looks up a localized string similar to Koje je vaše ime?.
 </summary>
-</member><member name="P:WindowsApplication1.My.Resources.Resources.azerbaijan_flag">
+</member><member name="P:WindowsApplication1.My.Resources.Resources.b10">
+	<summary>
+  Looks up a localized string similar to Ja sam iz.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.b2">
+	<summary>
+  Looks up a localized string similar to Moje ime je.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.b3">
+	<summary>
+  Looks up a localized string similar to Gdje mogu naći nešto za jelo?.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.b4">
+	<summary>
+  Looks up a localized string similar to Gdje je željezničke stanice?.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.b5">
+	<summary>
+  Looks up a localized string similar to Gdje je zračna luka?.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.b6">
+	<summary>
+  Looks up a localized string similar to Možeš li mi najbližeg toalet pokazati?.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.b7">
+	<summary>
+  Looks up a localized string similar to Zdravo.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.b8">
+	<summary>
+  Looks up a localized string similar to Zbogom.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.b9">
+	<summary>
+  Looks up a localized string similar to Hvala.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.blank_europe_map">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -35,6 +71,46 @@ Translato-tron
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.d1">
+	<summary>
+  Looks up a localized string similar to Hvad er dit navn?.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.d10">
+	<summary>
+  Looks up a localized string similar to Jeg er fra.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.d2">
+	<summary>
+  Looks up a localized string similar to Mit navn er.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.d3">
+	<summary>
+  Looks up a localized string similar to Hvor kan jeg finde noget at spise?.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.d4">
+	<summary>
+  Looks up a localized string similar to Hvor er stationen?.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.d5">
+	<summary>
+  Looks up a localized string similar to Hvor er lufthavnen?.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.d6">
+	<summary>
+  Looks up a localized string similar to Kan du vise mig det nærmeste toilet?.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.d7">
+	<summary>
+  Looks up a localized string similar to Hej.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.d8">
+	<summary>
+  Looks up a localized string similar to Farvel.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.d9">
+	<summary>
+  Looks up a localized string similar to Tak.
+</summary>
 </member><member name="P:WindowsApplication1.My.Resources.Resources.DENMARK">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -43,15 +119,71 @@ Translato-tron
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.eu_flag">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.europe_bosnia">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.europe_denmark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.europe_france">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.f1">
+	<summary>
+  Looks up a localized string similar to Quel est votre nom?.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.f10">
+	<summary>
+  Looks up a localized string similar to Je suis de.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.f2">
+	<summary>
+  Looks up a localized string similar to Mon nom est.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.f3">
+	<summary>
+  Looks up a localized string similar to Où puis-je trouver quelque chose à manger?.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.f4">
+	<summary>
+  Looks up a localized string similar to Où est la gare?.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.f5">
+	<summary>
+  Looks up a localized string similar to Où est l'aéroport?.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.f6">
+	<summary>
+  Looks up a localized string similar to Pouvez-vous me montrer la toilette la plus proche?.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.f7">
+	<summary>
+  Looks up a localized string similar to Bonjour.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.f8">
+	<summary>
+  Looks up a localized string similar to Au revoir.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.f9">
+	<summary>
+  Looks up a localized string similar to Merci.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.france_flag_thing">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:WindowsApplication1.My.Resources.Resources.french">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:WindowsApplication1.My.Resources.Resources.french_flag">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:WindowsApplication1.My.Resources.Resources.redTriangle">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

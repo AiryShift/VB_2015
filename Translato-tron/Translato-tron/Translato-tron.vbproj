@@ -76,29 +76,29 @@
     <Compile Include="converter.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.vb">
+    <Compile Include="main.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="main.Designer.vb">
+      <DependentUpon>main.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <Compile Include="exit.Designer.vb">
+      <DependentUpon>exit.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form2.vb">
+    <Compile Include="exit.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.vb">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <Compile Include="help.Designer.vb">
+      <DependentUpon>help.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form3.vb">
+    <Compile Include="help.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.vb">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <Compile Include="translate.Designer.vb">
+      <DependentUpon>translate.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form4.vb">
+    <Compile Include="translate.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="globals.vb" />
@@ -123,17 +123,17 @@
     <EmbeddedResource Include="converter.resx">
       <DependentUpon>converter.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <EmbeddedResource Include="exit.resx">
+      <DependentUpon>exit.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <EmbeddedResource Include="help.resx">
+      <DependentUpon>help.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <EmbeddedResource Include="translate.resx">
+      <DependentUpon>translate.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -189,6 +189,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\usa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blank_europe_map.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\europe_bosnia.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\europe_france.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\europe_denmark.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\france_flag_thing.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eu_flag.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

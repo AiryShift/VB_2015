@@ -1,7 +1,7 @@
 ﻿Public Class help
 
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
-        Me.Visible = False
-        mainScreen.Visible = True
+        Me.Hide()
+        mainScreen.Show()
     End Sub
 End Class

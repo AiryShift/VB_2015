@@ -66,117 +66,417 @@ Namespace My.Resources
         Friend ReadOnly Property australia() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("australia", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
-
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Koje je vaše ime?.
+        '''</summary>
+        Friend ReadOnly Property b1() As String
+            Get
+                Return ResourceManager.GetString("b1", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Ja sam iz.
+        '''</summary>
+        Friend ReadOnly Property b10() As String
+            Get
+                Return ResourceManager.GetString("b10", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Moje ime je.
+        '''</summary>
+        Friend ReadOnly Property b2() As String
+            Get
+                Return ResourceManager.GetString("b2", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Gdje mogu naći nešto za jelo?.
+        '''</summary>
+        Friend ReadOnly Property b3() As String
+            Get
+                Return ResourceManager.GetString("b3", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Gdje je željezničke stanice?.
+        '''</summary>
+        Friend ReadOnly Property b4() As String
+            Get
+                Return ResourceManager.GetString("b4", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Gdje je zračna luka?.
+        '''</summary>
+        Friend ReadOnly Property b5() As String
+            Get
+                Return ResourceManager.GetString("b5", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Možeš li mi najbližeg toalet pokazati?.
+        '''</summary>
+        Friend ReadOnly Property b6() As String
+            Get
+                Return ResourceManager.GetString("b6", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Zdravo.
+        '''</summary>
+        Friend ReadOnly Property b7() As String
+            Get
+                Return ResourceManager.GetString("b7", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Zbogom.
+        '''</summary>
+        Friend ReadOnly Property b8() As String
+            Get
+                Return ResourceManager.GetString("b8", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Hvala.
+        '''</summary>
+        Friend ReadOnly Property b9() As String
+            Get
+                Return ResourceManager.GetString("b9", resourceCulture)
+            End Get
+        End Property
+        
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property azerbaijan_2() As System.Drawing.Bitmap
+        Friend ReadOnly Property blank_europe_map() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("azerbaijan_2", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
+                Dim obj As Object = ResourceManager.GetObject("blank_europe_map", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
-
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property azerbaijan_flag() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("azerbaijan_flag", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
-            End Get
-        End Property
-
+        
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property bosnia() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("bosnia", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property bosnia_flag() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("bosnia_flag", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
-
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Hvad er dit navn?.
+        '''</summary>
+        Friend ReadOnly Property d1() As String
+            Get
+                Return ResourceManager.GetString("d1", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Jeg er fra.
+        '''</summary>
+        Friend ReadOnly Property d10() As String
+            Get
+                Return ResourceManager.GetString("d10", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Mit navn er.
+        '''</summary>
+        Friend ReadOnly Property d2() As String
+            Get
+                Return ResourceManager.GetString("d2", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Hvor kan jeg finde noget at spise?.
+        '''</summary>
+        Friend ReadOnly Property d3() As String
+            Get
+                Return ResourceManager.GetString("d3", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Hvor er stationen?.
+        '''</summary>
+        Friend ReadOnly Property d4() As String
+            Get
+                Return ResourceManager.GetString("d4", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Hvor er lufthavnen?.
+        '''</summary>
+        Friend ReadOnly Property d5() As String
+            Get
+                Return ResourceManager.GetString("d5", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Kan du vise mig det nærmeste toilet?.
+        '''</summary>
+        Friend ReadOnly Property d6() As String
+            Get
+                Return ResourceManager.GetString("d6", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Hej.
+        '''</summary>
+        Friend ReadOnly Property d7() As String
+            Get
+                Return ResourceManager.GetString("d7", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Farvel.
+        '''</summary>
+        Friend ReadOnly Property d8() As String
+            Get
+                Return ResourceManager.GetString("d8", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Tak.
+        '''</summary>
+        Friend ReadOnly Property d9() As String
+            Get
+                Return ResourceManager.GetString("d9", resourceCulture)
+            End Get
+        End Property
+        
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property DENMARK() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("DENMARK", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property denmark_flag() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("denmark_flag", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
-
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property eu_flag() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("eu_flag", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property europe_bosnia() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("europe_bosnia", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property europe_denmark() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("europe_denmark", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property europe_france() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("europe_france", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Quel est votre nom?.
+        '''</summary>
+        Friend ReadOnly Property f1() As String
+            Get
+                Return ResourceManager.GetString("f1", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Je suis de.
+        '''</summary>
+        Friend ReadOnly Property f10() As String
+            Get
+                Return ResourceManager.GetString("f10", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Mon nom est.
+        '''</summary>
+        Friend ReadOnly Property f2() As String
+            Get
+                Return ResourceManager.GetString("f2", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Où puis-je trouver quelque chose à manger?.
+        '''</summary>
+        Friend ReadOnly Property f3() As String
+            Get
+                Return ResourceManager.GetString("f3", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Où est la gare?.
+        '''</summary>
+        Friend ReadOnly Property f4() As String
+            Get
+                Return ResourceManager.GetString("f4", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Où est l&apos;aéroport?.
+        '''</summary>
+        Friend ReadOnly Property f5() As String
+            Get
+                Return ResourceManager.GetString("f5", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Pouvez-vous me montrer la toilette la plus proche?.
+        '''</summary>
+        Friend ReadOnly Property f6() As String
+            Get
+                Return ResourceManager.GetString("f6", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Bonjour.
+        '''</summary>
+        Friend ReadOnly Property f7() As String
+            Get
+                Return ResourceManager.GetString("f7", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Au revoir.
+        '''</summary>
+        Friend ReadOnly Property f8() As String
+            Get
+                Return ResourceManager.GetString("f8", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Merci.
+        '''</summary>
+        Friend ReadOnly Property f9() As String
+            Get
+                Return ResourceManager.GetString("f9", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property france_flag_thing() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("france_flag_thing", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property french() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("french", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property french_flag() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("french_flag", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
-
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property redTriangle() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("redTriangle", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
-            End Get
-        End Property
-
+        
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property triangle() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("triangle", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property usa() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("usa", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
     End Module
