@@ -24,6 +24,8 @@ Partial Class country
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(country))
         Me.gpbTranslations = New System.Windows.Forms.GroupBox()
+        Me.lblInfo_1 = New System.Windows.Forms.Label()
+        Me.lblInfo_2 = New System.Windows.Forms.Label()
         Me.txt10 = New System.Windows.Forms.TextBox()
         Me.txt2 = New System.Windows.Forms.TextBox()
         Me.rdb10 = New System.Windows.Forms.RadioButton()
@@ -42,8 +44,6 @@ Partial Class country
         Me.lblHeader = New System.Windows.Forms.Label()
         Me.lblCountryTo = New System.Windows.Forms.Label()
         Me.chkHide = New System.Windows.Forms.CheckBox()
-        Me.lblInfo_2 = New System.Windows.Forms.Label()
-        Me.lblInfo_1 = New System.Windows.Forms.Label()
         Me.btnRandom = New System.Windows.Forms.Button()
         Me.gpbTranslations.SuspendLayout()
         Me.SuspendLayout()
@@ -73,11 +73,30 @@ Partial Class country
         Me.gpbTranslations.TabStop = False
         Me.gpbTranslations.Text = "Translating from English..."
         '
+        'lblInfo_1
+        '
+        Me.lblInfo_1.AutoSize = True
+        Me.lblInfo_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblInfo_1.Location = New System.Drawing.Point(218, 45)
+        Me.lblInfo_1.Name = "lblInfo_1"
+        Me.lblInfo_1.Size = New System.Drawing.Size(84, 13)
+        Me.lblInfo_1.TabIndex = 13
+        Me.lblInfo_1.Text = "Enter your name"
+        '
+        'lblInfo_2
+        '
+        Me.lblInfo_2.AutoSize = True
+        Me.lblInfo_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblInfo_2.Location = New System.Drawing.Point(223, 228)
+        Me.lblInfo_2.Name = "lblInfo_2"
+        Me.lblInfo_2.Size = New System.Drawing.Size(79, 13)
+        Me.lblInfo_2.TabIndex = 12
+        Me.lblInfo_2.Text = "Enter a country"
+        '
         'txt10
         '
         Me.txt10.Location = New System.Drawing.Point(82, 223)
         Me.txt10.Name = "txt10"
-        Me.txt10.ReadOnly = True
         Me.txt10.Size = New System.Drawing.Size(135, 20)
         Me.txt10.TabIndex = 11
         '
@@ -85,7 +104,6 @@ Partial Class country
         '
         Me.txt2.Location = New System.Drawing.Point(99, 42)
         Me.txt2.Name = "txt2"
-        Me.txt2.ReadOnly = True
         Me.txt2.Size = New System.Drawing.Size(103, 20)
         Me.txt2.TabIndex = 10
         '
@@ -251,26 +269,6 @@ Partial Class country
         Me.chkHide.TabIndex = 16
         Me.chkHide.Text = "Hide translations"
         Me.chkHide.UseVisualStyleBackColor = True
-        '
-        'lblInfo_2
-        '
-        Me.lblInfo_2.AutoSize = True
-        Me.lblInfo_2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblInfo_2.Location = New System.Drawing.Point(223, 228)
-        Me.lblInfo_2.Name = "lblInfo_2"
-        Me.lblInfo_2.Size = New System.Drawing.Size(79, 13)
-        Me.lblInfo_2.TabIndex = 12
-        Me.lblInfo_2.Text = "Enter a country"
-        '
-        'lblInfo_1
-        '
-        Me.lblInfo_1.AutoSize = True
-        Me.lblInfo_1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblInfo_1.Location = New System.Drawing.Point(218, 45)
-        Me.lblInfo_1.Name = "lblInfo_1"
-        Me.lblInfo_1.Size = New System.Drawing.Size(84, 13)
-        Me.lblInfo_1.TabIndex = 13
-        Me.lblInfo_1.Text = "Enter your name"
         '
         'btnRandom
         '

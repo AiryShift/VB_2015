@@ -3,10 +3,13 @@
     Private Sub initialize(sender As Object, e As EventArgs) Handles MyBase.Activated
         If GlobalVariables.CurrentCountry = "fran" Then
             lblCountryTo.Text = "French"
+            My.Computer.Audio.Play(My.Resources.anthem_france, AudioPlayMode.BackgroundLoop)
         ElseIf GlobalVariables.CurrentCountry = "den" Then
             lblCountryTo.Text = "Danish"
+            My.Computer.Audio.Play(My.Resources.anthem_denmark, AudioPlayMode.BackgroundLoop)
         Else  ' GlobalVariables.CurrentCountry = "bos"
             lblCountryTo.Text = "Bosnian"
+            My.Computer.Audio.Play(My.Resources.anthem_bosnia, AudioPlayMode.BackgroundLoop)
         End If
         rdb1.Checked = True
         translate(1)
@@ -17,6 +20,7 @@
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         Me.Hide()
         mainScreen.Show()
+        My.Computer.Audio.Stop()
     End Sub
 
     Private Sub btnConvert_Click(sender As Object, e As EventArgs) Handles btnConvert.Click
@@ -47,11 +51,6 @@
 
     Private Sub rdb2_CheckedChanged(sender As Object, e As EventArgs) Handles rdb2.CheckedChanged
         translate(2)
-        If txt2.ReadOnly = False Then
-            txt2.ReadOnly = True
-        Else
-            txt2.ReadOnly = False
-        End If
     End Sub
 
     Private Sub txt2_TextChanged(sender As Object, e As EventArgs) Handles txt2.TextChanged
@@ -88,11 +87,6 @@
 
     Private Sub rdb10_CheckedChanged(sender As Object, e As EventArgs) Handles rdb10.CheckedChanged
         translate(10)
-        If txt10.ReadOnly = True Then
-            txt10.ReadOnly = False
-        Else
-            txt10.ReadOnly = True
-        End If
     End Sub
 
     Private Sub txt10_TextChanged(sender As Object, e As EventArgs) Handles txt10.TextChanged

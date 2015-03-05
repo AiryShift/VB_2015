@@ -61,6 +61,33 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property anthem_bosnia() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("anthem_bosnia", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property anthem_denmark() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("anthem_denmark", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property anthem_france() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("anthem_france", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property australia() As System.Drawing.Bitmap

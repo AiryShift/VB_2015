@@ -256,4 +256,13 @@
   <data name="x_files" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\x-files.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="anthem_bosnia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bosnia.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="anthem_denmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\denmark.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="anthem_france" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\french.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
