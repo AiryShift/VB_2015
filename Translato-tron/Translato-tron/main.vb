@@ -51,8 +51,7 @@
     End Sub
 
     Private Sub btnHelp_Click(sender As Object, e As EventArgs) Handles btnHelp.Click
-        Me.Hide()
-        help.Show()
+        help.ShowDialog()
     End Sub
 
     Public Sub openLanguage(lang As String)

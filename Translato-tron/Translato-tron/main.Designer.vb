@@ -96,7 +96,7 @@ Partial Class mainScreen
         Me.btnHelp.Name = "btnHelp"
         Me.btnHelp.Size = New System.Drawing.Size(75, 23)
         Me.btnHelp.TabIndex = 5
-        Me.btnHelp.Text = "Help"
+        Me.btnHelp.Text = "Credits"
         Me.btnHelp.UseVisualStyleBackColor = True
         '
         'pcbWorldMap
