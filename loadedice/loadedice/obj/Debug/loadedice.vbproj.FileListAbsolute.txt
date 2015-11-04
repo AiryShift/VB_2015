@@ -1,0 +1,11 @@
+C:\Users\julian.tu1\AppData\Local\Temporary Projects\loadedice\bin\Debug\loadedice.exe.config
+C:\Users\julian.tu1\Source\Repos\loadedice\loadedice\bin\Debug\loadedice.exe.config
+C:\Users\julian.tu1\Source\Repos\loadedice\loadedice\bin\Debug\loadedice.exe
+C:\Users\julian.tu1\Source\Repos\loadedice\loadedice\bin\Debug\loadedice.pdb
+C:\Users\julian.tu1\Source\Repos\loadedice\loadedice\bin\Debug\loadedice.xml
+C:\Users\julian.tu1\Source\Repos\loadedice\loadedice\obj\Debug\loadedice.Resources.resources
+C:\Users\julian.tu1\Source\Repos\loadedice\loadedice\obj\Debug\loadedice.main.resources
+C:\Users\julian.tu1\Source\Repos\loadedice\loadedice\obj\Debug\loadedice.vbproj.GenerateResource.Cache
+C:\Users\julian.tu1\Source\Repos\loadedice\loadedice\obj\Debug\loadedice.exe
+C:\Users\julian.tu1\Source\Repos\loadedice\loadedice\obj\Debug\loadedice.xml
+C:\Users\julian.tu1\Source\Repos\loadedice\loadedice\obj\Debug\loadedice.pdb
