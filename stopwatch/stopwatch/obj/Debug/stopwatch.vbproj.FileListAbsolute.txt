@@ -1,0 +1,19 @@
+C:\Users\julian.tu1\AppData\Local\Temporary Projects\stopwatch\bin\Debug\stopwatch.exe.config
+C:\Users\julian.tu1\AppData\Local\Temporary Projects\stopwatch\bin\Debug\stopwatch.exe
+C:\Users\julian.tu1\AppData\Local\Temporary Projects\stopwatch\bin\Debug\stopwatch.pdb
+C:\Users\julian.tu1\AppData\Local\Temporary Projects\stopwatch\bin\Debug\stopwatch.xml
+C:\Users\julian.tu1\AppData\Local\Temporary Projects\stopwatch\obj\Debug\stopwatch.Resources.resources
+C:\Users\julian.tu1\AppData\Local\Temporary Projects\stopwatch\obj\Debug\stopwatch.vbproj.GenerateResource.Cache
+C:\Users\julian.tu1\AppData\Local\Temporary Projects\stopwatch\obj\Debug\stopwatch.exe
+C:\Users\julian.tu1\AppData\Local\Temporary Projects\stopwatch\obj\Debug\stopwatch.xml
+C:\Users\julian.tu1\AppData\Local\Temporary Projects\stopwatch\obj\Debug\stopwatch.pdb
+C:\Users\julian.tu1\Source\Repos\stopwatch\stopwatch\bin\Debug\stopwatch.exe.config
+C:\Users\julian.tu1\Source\Repos\stopwatch\stopwatch\obj\Debug\stopwatch.exe
+C:\Users\julian.tu1\Source\Repos\stopwatch\stopwatch\obj\Debug\stopwatch.xml
+C:\Users\julian.tu1\Source\Repos\stopwatch\stopwatch\obj\Debug\stopwatch.pdb
+C:\Users\julian.tu1\Source\Repos\stopwatch\stopwatch\bin\Debug\stopwatch.exe
+C:\Users\julian.tu1\Source\Repos\stopwatch\stopwatch\bin\Debug\stopwatch.pdb
+C:\Users\julian.tu1\Source\Repos\stopwatch\stopwatch\bin\Debug\stopwatch.xml
+C:\Users\julian.tu1\Source\Repos\stopwatch\stopwatch\obj\Debug\stopwatch.main.resources
+C:\Users\julian.tu1\Source\Repos\stopwatch\stopwatch\obj\Debug\stopwatch.Resources.resources
+C:\Users\julian.tu1\Source\Repos\stopwatch\stopwatch\obj\Debug\stopwatch.vbproj.GenerateResource.Cache
